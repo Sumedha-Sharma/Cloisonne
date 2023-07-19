@@ -1,0 +1,101 @@
+.navbar{
+    flex: 2;
+    max-height: 10%;
+    // border: 2px solid navy;
+    display: flex;
+    flex-direction: column;
+    div svg path {
+        stroke: #ffffff;
+        stroke-width: 0.7px;
+      }
+      
+    
+    .nav-up{
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:visited{
+            color:black;
+        }
+       display: flex; 
+       flex: 1;
+       
+       .up-left{
+        flex: 4;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0.1em;
+       }
+       .up-center{
+        font-size: 2em;
+        flex: 8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.1em;
+        font-family: 'Aboreto', cursive;
+        
+       }
+       .up-right{
+        flex: 4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0.1em;
+        span{
+            width: 1em;
+            height: 1em;
+            font-size: 0.8em;
+            // padding-left: 0.4em;
+            // padding-right: 0.4em;
+            // padding-top: 0.2em;
+            // padding-bottom: 0.2em;
+            padding: 0.1em;
+            border-radius: 50%;
+            background-color: #DBA39A;
+            color: white;
+            position: absolute;
+            right: 0.3em;
+        text-align: center;
+            top: 2.1em;
+            
+        }
+       }
+    }
+    .item{
+        padding: 0.6em;
+       
+    }
+    .nav-down{
+        flex:1;
+        display: flex;
+        justify-content: center;
+        .wrapper{
+            font-family: 'Montserrat', sans-serif;
+            width: 80%;
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 1.1em;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:visited{
+                color:black;
+            }
+        }
+        .item{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        .item:hover{
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        }
+        
+    }
+}

@@ -1,0 +1,19 @@
+.List{
+    
+ flex: 12;
+ display: flex;
+flex-wrap: wrap;
+ font-family: "Montserrat", sans-serif;
+ padding: 1em;
+ overflow: scroll;
+ justify-content: space-evenly;
+//  div{
+//     border: 2px solid black;
+//  }
+ 
+ 
+}
+
+.List::-webkit-scrollbar{
+   display: none;
+}

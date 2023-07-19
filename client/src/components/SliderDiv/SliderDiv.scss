@@ -1,0 +1,98 @@
+.SliderDiv{
+    // flex: 1;
+    // border: 2px solid black;
+    padding: 0.5em;
+    min-width: 80%;
+    display: flex;
+    background-image: url(../../img/pattern.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+//  margin-left: 5em;
+//  margin-right: 5em;
+    min-width: 100%;
+    max-width: 100%;
+    
+    
+    .imgcon1{
+        flex: 3;
+        padding: 0.5em;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            max-width: 100%;
+            height: 70%;
+            
+        }
+        
+    }
+    
+    .imgcon2{
+        flex: 3;
+        display: flex;
+        align-items:flex-start;
+        justify-content: center;
+        padding: 0.7em;
+        img{
+            width: 80%;
+            height: 85%;
+            
+        }
+    }
+    .title{
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        font-size: 3.2em;
+        font-family: 'Aboreto', cursive;
+        .part1{
+            flex: 2;
+            display: flex;
+            align-items: flex-end;
+            font-size: 1.1em;
+            
+        }
+        .part2{
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            font-weight: 100;
+            font-size: 1.1em;
+        }.desc{
+            flex: 1;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.4em;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .wrapper{
+            width: 100%;
+            display: flex;
+            align-items:center;
+            justify-content: flex-end;
+            .breaker{
+                width: 80%;
+                height: 100%;
+                padding: 0;
+                // display: flex;
+                // flex-direction: column;
+                // justify-content: flex-end;
+            //   border: 2px solid rgb(92, 17, 17);
+             
+                hr{
+                    height: 7%;
+                    width: 100%;
+                    color: black;
+                    background-color: rgb(74, 72, 73);
+                }
+    
+            }
+        }
+        
+    }
+    // div{
+    //     border: 2px solid black;
+    // }
+}

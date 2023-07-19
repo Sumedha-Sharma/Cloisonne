@@ -1,0 +1,54 @@
+.CartItem{
+    flex: 1;
+    display: flex;
+    min-height: 100%;
+    margin: 0.5em;
+    font-size: 0.9em;
+
+    .img-con{
+        flex: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            max-width: 90%;
+            max-height: 90%;
+            min-height: 90%;
+        }
+    }
+    .deets{
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        .title{
+            flex: 3;
+        }
+        .desc{
+            flex: 5;
+            font-size: 0.7em;
+            align-items: center;
+            text-align: justify;
+        }
+        .totalPrice{
+            flex: 2;
+            display: flex;
+            color:#867070;
+            font-weight: 700;
+            align-items: center;
+            font-size: 0.8em;
+        
+           div{
+            margin: 0.3em;
+           }
+        }
+    }
+    .item-action{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg:hover{
+           color:#DBA39A ; 
+        }
+    }
+}

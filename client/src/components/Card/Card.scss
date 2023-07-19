@@ -1,0 +1,91 @@
+.Card{
+    flex: 2;
+    // border: 2px solid black;
+    margin-left: 1em;
+    margin-right: 1em;
+    max-width: 20%;
+    min-width: 20%;
+    height: 40%;
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    flex-direction: column;
+    color: rgb(47, 45, 46);
+    a{
+        
+        text-decoration: none;
+         color: rgb(47, 45, 46);
+    }
+    
+
+    div{
+        // border: 2px solid black;
+    }
+    .img-holder{
+        flex: 6;
+        display: flex;
+        // overflow: hidden;
+        .img1{
+            // width: 100%;
+            // height: 100%;
+            
+        }
+        .img2{
+            // width: 100%;
+            // height: 100%;
+          display: none;
+        }
+    
+        img{
+            min-height: 100%;
+            width: 100%;
+        }
+
+    }.img-holder:hover{
+        .img2{
+            display: block;
+        }
+        .img1{
+            display: none;
+        }
+    }
+    .details{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        padding: 0.5em;
+        justify-content: center;
+        .name{
+            flex: 3;
+            font-size: 0.75em;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+        }
+        .price{
+            flex: 3;
+            display: flex;
+            font-size: 0.9em;
+            .initial{
+                flex: 1;
+                padding: 0.2em;
+                display: flex;
+                align-items: flex-start;
+                text-decoration: line-through;
+            }
+            .final{
+                flex: 3;
+                font-weight: 900;
+                padding: 0.2em;
+                display: flex;
+                align-items: flex-start;
+            }
+        }
+    }
+
+
+
+}
+.Card:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+ }
